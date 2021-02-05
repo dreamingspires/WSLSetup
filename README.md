@@ -21,7 +21,7 @@ Open PowerShell as Administrator and run:
 ###### &nbsp;
 
 This repo allows you to make your own WSL installer to the Dreaming Spires specification, with a user. 
-### **If you wish to download a pre-built version of this package please click here**. 
+### **If you wish to download a pre-built version of this package please [click here](https://github.com/dreamingspires/WSLSetup/releases/latest)**. 
 
 Otherwise, read on.
 
@@ -40,7 +40,6 @@ Extract the file within this package (e.g. with WinRAR) called layer.tar, and re
 
 ###### &nbsp;
 ## **Step 2:** Install fedora into WSL
-###### &nbsp;
 
 ### **Make a directory where you wish to put your WSL distribution**
 
