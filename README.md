@@ -1,4 +1,4 @@
-# Dreaming Spires WSL Setup Utility (With VS Code integration)
+<img src="https://raw.githubusercontent.com/dreamingspires/WSLSetup/6dba57c90c09dbd1ed67f60e044f09419e4014d5/misc/wsl_setup.svg?token=AOPXJW6I76GCY7XGSE7WXT3ADVJ32" alt="Dreaming Spires WSL Setup">
 
 Quickly import the Dreaming Spires work environment into WSL, with a user and the appropriate packages.
 
