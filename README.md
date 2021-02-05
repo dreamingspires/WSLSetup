@@ -27,9 +27,7 @@ Otherwise, read on.
 
 # Part 2: Re-create the WSL installer (optional, skip if you downloaded the pre-built version)
 
-# **Step 1**
-
-## Download the Fedora 33 file
+## **Step 1:** Download the Fedora 33 file
 [Download here](https://kojipkgs.fedoraproject.org//packages/Fedora-Container-Base/33)
 
 Go to `"current-date".0/images/Fedora-Container-Base-33-"current-date".0.x86_64.tar.xz`
@@ -41,9 +39,7 @@ Extract the file within this package (e.g. with WinRAR) called layer.tar, and re
 `fedora-33-rootfs.tar`
 
 ###### &nbsp;
-# **Step 2**
-
-## Install fedora into WSL
+## **Step 2:** Install fedora into WSL
 ###### &nbsp;
 
 ### **Make a directory where you wish to put your WSL distribution**
@@ -82,8 +78,7 @@ If this is your first distro, this will automatically be default. Otherwise run:
 to set as default.
 
 ###### &nbsp;
-# **Step 3**
-## Set up Fedora for Dreaming Spires
+## **Step 3:** Set up Fedora for Dreaming Spires
 
 To enter your WSL, in powershell enter:
 
@@ -111,8 +106,7 @@ To leave WSL enter:
 `exit`
 
 ###### &nbsp;
-# **Step 4**
-## Make your clean distro into a package
+## **Step 4:** Make your clean distro into a package
 
 ### **Export the distro to a .tar file**
 In powershell:
@@ -127,14 +121,11 @@ Using 7-Zip, or otherwise, package both these files into one 7-Zip package, whic
 
 # Part 3: Using the WSL Installer
 
-# **Step 1**
-## Running the installer
+## **Step 1:** Running the installer
 
 Using 7-Zip, or otherwise, unpackage the installer. You should see two files inside, `dreaming.tar` and `wslgen.bat`. Run `wslgen.bat`
 
-# **Step 2**
-
-## Using the installer
+## **Step 2:** Using the installer
 Note: While every effort has been made to account for the use of spaces in file paths, due to fact variables are passed between command line and bash this may cause errors. You may use the WSL installer if the file path to the distro in Windows already has a space in it (e.g. `Documents and Settings`), but please don't *create* folders with spaces in their names.
 
 Please press enter after each step
