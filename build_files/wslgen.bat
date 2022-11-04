@@ -4,12 +4,11 @@ set /p fileloc="Enter path to tar file: "
 set /p distropath="Enter path to distro: "
 mkdir "%distropath%"
 setlocal ENABLEDELAYEDEXPANSION
-wsl --import "%distroname%" "%distropath%" "%fileloc%"
-set distropath=%distropath:\=\\%
-set distropath=%distropath: =\ %
+wsl --import "%distroname%" "%distropath%" "%fileloc%" --version 2
+
 wsl -s %distroname%
 echo.
-wsl bash /home/startup.sh "%distropath%"
+wsl bash /home/startup.sh
 echo.
-start cmd.exe /b /c %APPDATA%\Code\User\settings.json
+
 set /p irrelevent="That should be it^! Press enter to close"
