@@ -1,5 +1,5 @@
 #!/bin/bash
-echo 'Welcome to the Dreaming Spires Fedora 33 initialisation program! Please enter your details below'
+echo 'Welcome to the Dreaming Spires Fedora 36 initialisation program! Please enter your details below'
 read -p 'Username: ' uservar
 useradd -G wheel $uservar
 passwd $uservar
