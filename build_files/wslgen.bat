@@ -10,5 +10,5 @@ wsl -s %distroname%
 echo.
 wsl bash /home/startup.sh
 echo.
-
+wsl --shutdown
 set /p irrelevent="That should be it^! Press enter to close"
