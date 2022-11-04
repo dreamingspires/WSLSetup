@@ -1,3 +1,4 @@
+passwd
 nano
 git
 poetry
@@ -8,4 +9,4 @@ sqlite-devel
 python3-pytest
 npm
 
-sudo dnf install -y nano git poetry python3-flit gcc python3-devel sqlite-devel python3-pytest npm
+sudo dnf install -y passwd nano git poetry python3-flit gcc python3-devel sqlite-devel python3-pytest npm
