@@ -2,9 +2,9 @@
 set /p distroname="Enter chosen distro name: "
 set /p fileloc="Enter path to tar file: "
 set /p distropath="Enter path to distro: "
-mkdir "%distropath%"
+mkdir "%distropath%\%distroname%"
 setlocal ENABLEDELAYEDEXPANSION
-wsl --import "%distroname%" "%distropath%" "%fileloc%" --version 2
+wsl --import "%distroname%" "%distropath%\%distroname%" "%fileloc%" --version 2
 
 wsl -s %distroname%
 echo.
